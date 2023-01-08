@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    background: rgb(2,0,36);
+    background: linear-gradient(338deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 100%);
+}
+nav{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    display: block;
+    box-shadow: 0 3px 40px 2px ;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: "American Signature";
+    left: 100px;
+
+}
+.background{
+display: flex;
+}
+.b-perfil{
+    width: 50%;
+    display: flex;
+    flex-direction: column  ;
+    border-radius: 20PX;
+}
+.b-picture{
+    width: 50%;
+}
+.nom-perfil{
+    position: absolute;
+    color: aliceblue;
+    width: 505px;
+    height: 428px;
+    top: 250px;
+    left: 100px;
+
+}
+.nom-perfil h1{
+    display: flex;
+    flex-direction: column;
+    font-family: normal;
+    font-size: 50px;
+    gap: 2px;
+    padding: 0;
+    margin: 0;
+}
+.Info-perfil{
+    position: absolute;
+    color: aliceblue;
+    width: 400px;
+    height: 428px;
+    top: 380px;
+    left: 100px;
+    text-justify: auto  ;
+    
+}
+.Info-perfil p{
+    margin: 0;
+    font-size: 20px;
+}
+.b-picture img{
+    width: 100%;
+    height: 953px;
+}
+button{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #0297D7;
+}
+ button:hover{
+    background-color: #01CEFB;
+    font-family: Montserrat bold;
+ }
